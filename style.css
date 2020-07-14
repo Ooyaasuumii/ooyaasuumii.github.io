@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 0;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0;
+}
+
+#burgerBtn{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+
+@media (max-width: 400px) {
+    .navbar-brand {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+
+
+@media (max-width: 355px) {
+.navbar-brand {
+    margin-left: 50px;
+    margin-right: 0px;
+    }
+}
+
+
+  #concrete-construction {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+@media (max-width: 355px) {
+    #concrete-construction {
+        display: none;
+    }
+  }
+
+.cr-images {
+    margin: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+#navbarNav {
+    padding-top: 25px;
+    padding-left: 5%;
+}
+
+#navbarNav ul {
+   text-align: center;  
+}
+
+#navbarNav ul li {
+    padding: 15px;
+ }
+ 
+#carlos {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    max-width: 70%;
+}
+
+@media (max-width: 375px) {
+    #carlos {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+
+.txt-wrapper h5 {
+    margin-left: 100px;
+}
+
+.txt-wrapper {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+@media (max-width: 375px) {
+    .txt-wrapper {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+
+
+
+
+        /* Image Gallery Realated */
+
+#clickGalleryContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+
+#gallery-btn{
+    margin-bottom: 10px;
+    border: none; 
+    background-color: white;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+
+.contact-container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#contact {
+    margin-top: 3%;
+}
+
+@media (max-width: 400px) {
+    #contact {
+        margin-top: 15%;
+    }
+}
+
+.spacer {
+    height: 100px;
+}
+
+.fade-in {
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 1.5s;
+    -moz-animation: fadeIn ease 1.5s;
+    -o-animation: fadeIn ease 1.5s;
+    -ms-animation: fadeIn ease 1.5s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+}
+
